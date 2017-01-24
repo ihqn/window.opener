@@ -15,9 +15,9 @@
 
 <h5>form标签</h5>
 <p> 使用target="_blank"会使提交的页面也有window.opener对象。与a标签表现一样</p>
-    <form action="xss.html" method="get" target="_blank">
-       <button type="">提交</button>
-    </form>
+    \<form action="xss.html" method="get" target="_blank">
+       \<button type="">提交</button>
+    \</form>
 
 <h5>Window.open</h5>
 <p>在父页面上全局写了任何方法，子页面都可以调用</p>
