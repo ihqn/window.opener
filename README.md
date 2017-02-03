@@ -31,3 +31,5 @@
 
     //在b页面
     window.opener.callback();
+<h5> \<base target="_blank"\> </h5>
+    加在head标签上的base,能使页面上所有的a都统一指向新窗口
